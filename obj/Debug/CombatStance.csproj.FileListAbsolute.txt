@@ -6,3 +6,11 @@ C:\Users\clope\Downloads\repos\repos\GTAV_CorrectProjectType\CombatStance\bin\De
 C:\Users\clope\Downloads\repos\repos\GTAV_CorrectProjectType\CombatStance\obj\Debug\CombatSt.F30902CF.Up2Date
 C:\Users\clope\Downloads\repos\repos\GTAV_CorrectProjectType\CombatStance\obj\Debug\CombatStance.dll
 C:\Users\clope\Downloads\repos\repos\GTAV_CorrectProjectType\CombatStance\obj\Debug\CombatStance.pdb
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\CombatStance\obj\Debug\CombatStance.csproj.AssemblyReference.cache
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\CombatStance\obj\Debug\CombatStance.csproj.CoreCompileInputs.cache
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\CombatStance\obj\Debug\CombatStance.dll
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\CombatStance\obj\Debug\CombatStance.pdb
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\CombatStance\bin\Debug\CombatStance.dll
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\CombatStance\bin\Debug\CombatStance.pdb
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\CombatStance\bin\Debug\ScriptHookVDotNet3.dll
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\CombatStance\obj\Debug\CombatSt.F30902CF.Up2Date

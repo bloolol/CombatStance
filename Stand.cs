@@ -190,20 +190,6 @@ namespace CombatStance
                     Prone.goProneIdle = 2;
                     Main.SetStance(Main.Stance.Prone);
                 }
-                else
-                {
-                    DateTime now = DateTime.Now;
-                    int num;
-                    if (now.Day > 22)
-                    {
-                        now = DateTime.Now;
-                        num = now.Month > 8 ? 1 : 0;
-                    }
-                    else
-                        num = 0;
-                    if (num != 0)
-                        throw new ArgumentOutOfRangeException();
-                }
             }
         }
     }
