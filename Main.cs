@@ -28,6 +28,9 @@ namespace CombatStance
 
         public Main()
         {
+            if (Game.IsPaused || Game.Player.Character.IsInVehicle() || Game.Player.Character.IsSwimming || Game.Player.Character.IsFalling)
+                return;
+
             this.Tick += new EventHandler(this.OnTick);
             this.KeyDown += new KeyEventHandler(this.OnKeyDown);
             this.KeyUp += new KeyEventHandler(this.OnKeyUp);
@@ -221,6 +224,7 @@ namespace CombatStance
 
         private void OnTick(object sender, EventArgs e)
         {
+           
             //this.Camera();
             this.Сuts();
             this.Controller();
@@ -228,7 +232,7 @@ namespace CombatStance
             Crouch.Stance_Crouch();
             Prone.Stance_Prone();
             this.TransitionStanse();
-            this.FalloffCar();
+            //this.FalloffCar();
             if (!Game.Player.Character.IsDead && !Function.Call<bool>(Hash.IS_PLAYER_SWITCH_IN_PROGRESS) && !Function.Call<bool>(Hash.IS_PLAYER_BEING_ARRESTED) || Main.currentStance == 0)
                 return;
             Main.SetStance(Main.Stance.Standing);

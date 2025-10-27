@@ -18,6 +18,8 @@ namespace CombatStance
     {
         public Intime()
         {
+            if (Game.IsPaused || Game.Player.Character.IsInVehicle() || Game.Player.Character.IsSwimming || Game.Player.Character.IsFalling)
+                return;
             this.Tick += new EventHandler(this.OnTick);
             this.KeyDown += new KeyEventHandler(this.OnKeyDown);
             this.KeyUp += new KeyEventHandler(this.OnKeyUp);
